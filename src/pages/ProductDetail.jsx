@@ -32,10 +32,10 @@ const ProductDetail = () => {
     fetchProductDetail();
   }, [params]);
   if (productDetail === null) {
-    return <div className="text-center text-3xl font-semibold">Ürün bulunamadı</div>;
+    return (
+      <div className="text-center text-3xl font-semibold">Ürün bulunamadı</div>
+    );
   }
-
-  const { image, ...detail } = productDetail;
 
   return (
     <>
@@ -54,8 +54,8 @@ const ProductDetail = () => {
           </>
         ) : (
           <>
-            <ProductImage image={image} />
-            <DetailContent product={detail} />
+            <ProductImage image={productDetail.image} />
+            <DetailContent product={productDetail} />
           </>
         )}
       </div>

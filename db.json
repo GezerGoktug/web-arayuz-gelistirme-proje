@@ -245,7 +245,115 @@
   ],
   "cart": [
     {
-      "cart": [],
+      "cart": [
+        {
+          "id": "1",
+          "title": "iPhone 15 Pro Max",
+          "description": "Apple'ın en yeni amiral gemisi modeli olan iPhone 15 Pro Max, A17 Pro çipi ve titanyum kasasıyla güç ve şıklığı bir arada sunuyor.",
+          "price": 1199,
+          "image": "/products_images/product_1.png",
+          "rating": 4.8,
+          "category": "Phone",
+          "brand": "Apple",
+          "color": [
+            "black",
+            "natural",
+            "blue"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Samsung Galaxy S24 Ultra",
+          "description": "Galaxy S24 Ultra, Snapdragon 8 Gen 3 işlemcisi ve gelişmiş yapay zekâ özellikleriyle profesyonel seviyede fotoğraf ve performans sunar.",
+          "price": 1199,
+          "image": "/products_images/product_2.png",
+          "rating": 4.7,
+          "category": "Phone",
+          "brand": "Samsung",
+          "color": [
+            "gray",
+            "black",
+            "violet"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "title": "MacBook Pro M3 Max 16”",
+          "description": "MacBook Pro M3 Max, yoğun grafik ve hesaplama gücü gerektiren işler için tasarlanmış en güçlü MacBook modelidir.",
+          "price": 3499,
+          "image": "/products_images/product_3.png",
+          "rating": 4.9,
+          "category": "Laptop",
+          "brand": "Apple",
+          "color": [
+            "space black",
+            "silver"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "title": "ASUS ROG Zephyrus G16",
+          "description": "ROG Zephyrus G16, RTX 4070 GPU ve Intel i9 işlemcisiyle üst düzey oyun performansı sunar.",
+          "price": 1899,
+          "image": "/products_images/product_4.png",
+          "rating": 4.6,
+          "category": "Laptop",
+          "brand": "Asus",
+          "color": [
+            "black",
+            "white"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "title": "Sony WH-1000XM5",
+          "description": "Sony WH-1000XM5, üstün aktif gürültü engelleme teknolojisi ve uzun pil ömrüyle mükemmel bir kablosuz kulak üstü kulaklıktır.",
+          "price": 399,
+          "image": "/products_images/product_5.png",
+          "rating": 4.7,
+          "category": "Headphones",
+          "brand": "Sony",
+          "color": [
+            "black",
+            "silver"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "title": "Samsung Galaxy Watch 6 Classic",
+          "description": "Klasik saat tasarımını modern teknolojiyle buluşturan Galaxy Watch 6 Classic, sağlık ve fitness takibiyle öne çıkıyor.",
+          "price": 449,
+          "image": "/products_images/product_7.png",
+          "rating": 4.4,
+          "category": "Watch",
+          "brand": "Samsung",
+          "color": [
+            "black",
+            "silver"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "title": "OnePlus 12",
+          "description": "OnePlus 12, Snapdragon 8 Gen 3 işlemcisi, 2K AMOLED ekranı ve 100W hızlı şarj desteğiyle amiral gemisi deneyimi sunar.",
+          "price": 899,
+          "image": "/products_images/product_13.png",
+          "rating": 4.6,
+          "category": "Phone",
+          "brand": "OnePlus",
+          "color": [
+            "green",
+            "black"
+          ],
+          "quantity": 1
+        }
+      ],
       "id": "0300"
     },
     {
@@ -338,6 +446,19 @@
           "brand": "Apple",
           "color": [
             "space black",
+            "silver"
+          ]
+        },
+        {
+          "id": "8",
+          "title": "iPad Pro M4 13”",
+          "description": "Yeni iPad Pro, ultra ince OLED ekranı ve M4 çipiyle yaratıcı profesyoneller için ideal bir cihazdır.",
+          "price": 1399,
+          "rating": 4.8,
+          "category": "Tablet",
+          "brand": "Apple",
+          "color": [
+            "space gray",
             "silver"
           ]
         }
