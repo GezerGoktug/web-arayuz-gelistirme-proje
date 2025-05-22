@@ -4,31 +4,28 @@ import SliderItem from "./SliderItem";
 
 const sliderContent = [
   {
-    title: "iPhone 15 Pro ile Tanışın",
-    content:
-      "Yepyeni titanyum tasarımı ve A17 Pro çipiyle gücün zirvesine ulaşın.",
+    title: "Meet iPhone 15 Pro",
+    content: "Reach the peak of power with the all-new titanium design and A17 Pro chip.",
     image: "/slider/15_pro_max.png",
   },
   {
-    title: "Vision Pro ile Geleceğe Göz Atın",
-    content: "Gerçeklik ve dijital dünyanın kusursuz birleşimi şimdi burada.",
+    title: "Take a Glimpse into the Future with Vision Pro",
+    content: "The perfect fusion of reality and the digital world is here now.",
     image: "/slider/vision_pro.png",
   },
   {
-    title: "MacBook Air ile Hafifliğe Güç Katın",
-    content:
-      "M2 çipli MacBook Air ile gün boyu performans, şıklık ve taşınabilirlik bir arada.",
+    title: "Power Meets Lightness with MacBook Air",
+    content: "All-day performance, elegance, and portability with the M2-powered MacBook Air.",
     image: "/slider/macbook_air.png",
   },
   {
-    title: "Apple Watch ile Kendini Keşfet",
-    content: "Sağlık, fitness ve tarz. Tümünü bileğinde taşı!",
+    title: "Discover Yourself with Apple Watch",
+    content: "Health, fitness, and style—all on your wrist!",
     image: "/slider/apple_watch.png",
   },
   {
-    title: "AirPods Pro ile Sese Odaklan",
-    content:
-      "Yeni nesil gürültü engelleme ile müziği daha önce hiç duymadığın gibi yaşa.",
+    title: "Focus on Sound with AirPods Pro",
+    content: "Experience music like never before with next-gen noise cancellation.",
     image: "/slider/airpods_pro.png",
   },
 ];

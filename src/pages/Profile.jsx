@@ -16,7 +16,7 @@ const Profile = () => {
     logout();
     clearCart();
     clearFavorites();
-    toast.success("Çıkış başarılı");
+    toast.success("Logout successfully");
   };
   return (
     <div className="flex flex-col items-center sm:items-start sm:flex-row gap-12 px-8 py-12 border border-slate-200 rounded-lg shadow shadow-slate-200/50">
@@ -36,7 +36,7 @@ const Profile = () => {
           onClick={() => handleLogout()}
           className="bg-indigo-500 block mt-4 px-3 rounded-lg font-semibold text-white"
         >
-          Log out
+          Logout
         </Button>
       </div>
     </div>

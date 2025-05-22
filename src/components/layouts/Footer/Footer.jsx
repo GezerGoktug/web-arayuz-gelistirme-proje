@@ -9,11 +9,12 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between gap-10 sm:gap-3">
           <div className="sm:w-[44%] lg:w-1/2 pe-6 lg:pe-24">
             <Logo />
+            {/* commit */}
             <p className="mt-4 text-sm md:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              distinctio, tenetur quod repellendus quaerat quas accusantium
-              deleniti animi odio voluptatibus aut dolore placeat minus culpa,
-              non cupiditate cum tempore eius!
+              The Best Place for Easy and Hassle-Free Shopping, 
+              Where Every Visit Feels Convenient, Comfortable, 
+              and Rewarding, Making It a Joy to Discover 
+              Great Deals and Quality Products.
             </p>
           </div>
           <div className="flex-1">
@@ -37,20 +38,28 @@ const Footer = () => {
           </div>
           <div className="flex-1">
             <div className="sm:ms-auto sm:w-max text-left">
-              <h6 className="font-semibold mb-3 text-xl">Bizi takip edin</h6>
+              <h6 className="font-semibold mb-3 text-xl">Follow Us</h6>
               <div className="flex gap-3 lg:gap-6 items-center lg:text-lg">
-                <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
-                  <i className="fa-brands fa-instagram"></i>
-                </div>
-                <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
-                  <i className="fa-brands fa-facebook"></i>
-                </div>
-                <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
-                  <i className="fa-brands fa-youtube"></i>
-                </div>
-                <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
-                  <i className="fa-brands fa-x-twitter"></i>
-                </div>
+                <a href="." target="_blank" rel="noopener noreferrer">
+                  <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
+                    <i className="fa-brands fa-instagram"></i>
+                  </div>
+                </a>
+                <a href="." target="_blank" rel="noopener noreferrer">
+                  <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
+                    <i className="fa-brands fa-facebook"></i>
+                  </div>
+                </a>
+                <a href="." target="_blank" rel="noopener noreferrer">
+                  <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
+                    <i className="fa-brands fa-youtube"></i>
+                  </div>
+                </a>
+                <a href="." target="_blank" rel="noopener noreferrer">
+                  <div className="border border-slate-900 size-8 lg:size-9 flex items-center justify-center cursor-pointer rounded-xl transition-colors hover:text-slate-100 hover:bg-slate-900">
+                    <i className="fa-brands fa-x-twitter"></i>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

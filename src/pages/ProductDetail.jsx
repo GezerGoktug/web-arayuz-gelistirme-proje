@@ -17,13 +17,13 @@ const ProductDetail = () => {
 
         const dt = await res.json();
 
-        if (!res.ok) throw new Error("Ürün detayları çekerken bir hata oluştu");
+        if (!res.ok) throw new Error("An error occurred while taking product details");
 
         console.log(dt);
 
         setProductDetail(dt);
       } catch {
-        toast.error("Ürün detaylarını çekerken bir hata oluştu.");
+        toast.error("An error occurred while taking product details");
       } finally {
         setLoading(false);
       }
@@ -33,7 +33,7 @@ const ProductDetail = () => {
   }, [params]);
   if (productDetail === null) {
     return (
-      <div className="text-center text-3xl font-semibold">Ürün bulunamadı</div>
+      <div className="text-center text-3xl font-semibold">Product Not Found</div>
     );
   }
 

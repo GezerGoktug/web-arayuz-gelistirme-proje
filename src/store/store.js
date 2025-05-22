@@ -20,7 +20,7 @@ store.subscribe(async () => {
     await handleCart(state.auth.user.id, state.cart.cart);
     await handleFavourites(state.auth.user.id, state.favourites.favorites);
     localStorage.setItem(
-      "favorites",
+      "favourites",
       JSON.stringify(state.favourites.favorites)
     );
     localStorage.setItem("cart", JSON.stringify(state.cart.cart));

@@ -94,16 +94,16 @@ const Filter = () => {
 
   return (
     <div className="sm:w-[240px] border border-slate-200 p-4 rounded-lg h-max space-y-6 text-sm">
-      <h3 className="font-semibold text-base">Filtreler</h3>
+      <h3 className="font-semibold text-base">Filters</h3>
 
       <div>
-        <label className="font-medium block mb-1">Kategori</label>
+        <label className="font-medium block mb-1">Categories</label>
         <select
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
           className="w-full border rounded p-1"
         >
-          <option value="">Tümü</option>
+          <option value="">All</option>
           {categories.map((cat) => (
             <option key={cat} value={cat}>
               {cat}
@@ -113,7 +113,7 @@ const Filter = () => {
       </div>
 
       <div>
-        <label className="font-medium block mb-1">Marka</label>
+        <label className="font-medium block mb-1">Brand</label>
         <div className="max-h-40 overflow-y-auto space-y-1">
           {brands.map((brand) => (
             <label key={brand} className="flex items-center gap-2">
@@ -129,7 +129,7 @@ const Filter = () => {
       </div>
 
       <div>
-        <label className="font-medium block mb-1">Renk</label>
+        <label className="font-medium block mb-1">Color</label>
         <div className="flex flex-wrap gap-2">
           {colors.map((color) => (
             <label key={color} className="flex items-center gap-1">
@@ -145,7 +145,7 @@ const Filter = () => {
       </div>
 
       <div>
-        <label className="font-medium block mb-1">Fiyat Aralığı</label>
+        <label className="font-medium block mb-1">Price Range</label>
         <div className="flex items-center gap-2">
           <input
             type="number"
@@ -169,13 +169,13 @@ const Filter = () => {
         onClick={() => resetFilters()}
         className="w-full bg-red-600 text-white py-1 rounded hover:bg-red-700"
       >
-        Sıfırla
+        Reset
       </Button>
       <Button
         onClick={handleFilter}
         className="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700"
       >
-        Filtrele
+        Filter
       </Button>
     </div>
   );

@@ -9,22 +9,22 @@ const Cash = () => {
   );
   return (
     <div className="w-full lg:w-1/3 border border-slate-200 rounded-lg p-4 shadow-sm h-fit">
-      <h3 className="text-xl font-bold mb-4">Sipariş Özeti</h3>
+      <h3 className="text-xl font-bold mb-4">Order Summary</h3>
       <div className="flex justify-between mb-2 text-sm">
-        <span>Ara Toplam</span>
+        <span>Price of Products</span>
         <span>${totalPrice}</span>
       </div>
       <div className="flex justify-between mb-4 text-sm">
-        <span>Kargo</span>
-        <span>₺30</span>
+        <span>Cargo</span>
+        <span>$30</span>
       </div>
       <hr className="mb-4 border-slate-200" />
       <div className="flex justify-between font-bold text-lg mb-6">
-        <span>Toplam</span>
+        <span>Total Price</span>
         <span>${totalPrice + 30}</span>
       </div>
       <Button className="w-full bg-blue-600 text-white rounded hover:bg-blue-700">
-        Ödeme Yap
+        Make Payment
       </Button>
     </div>
   );

@@ -33,7 +33,7 @@
     {
       "id": "1",
       "title": "iPhone 15 Pro Max",
-      "description": "Apple'ın en yeni amiral gemisi modeli olan iPhone 15 Pro Max, A17 Pro çipi ve titanyum kasasıyla güç ve şıklığı bir arada sunuyor.",
+      "description": "Apple's latest flagship model, the iPhone 15 Pro Max, combines power and elegance with its A17 Pro chip and titanium body.",
       "price": 1199,
       "image": "/products_images/product_1.png",
       "rating": 4.8,
@@ -48,7 +48,7 @@
     {
       "id": "2",
       "title": "Samsung Galaxy S24 Ultra",
-      "description": "Galaxy S24 Ultra, Snapdragon 8 Gen 3 işlemcisi ve gelişmiş yapay zekâ özellikleriyle profesyonel seviyede fotoğraf ve performans sunar.",
+      "description": "The Galaxy S24 Ultra offers professional-level photography and performance with its Snapdragon 8 Gen 3 processor and advanced AI features.",
       "price": 1199,
       "image": "/products_images/product_2.png",
       "rating": 4.7,
@@ -63,7 +63,7 @@
     {
       "id": "3",
       "title": "MacBook Pro M3 Max 16”",
-      "description": "MacBook Pro M3 Max, yoğun grafik ve hesaplama gücü gerektiren işler için tasarlanmış en güçlü MacBook modelidir.",
+      "description": "The MacBook Pro M3 Max is the most powerful MacBook model designed for tasks that demand intense graphic and computing power.",
       "price": 3499,
       "image": "/products_images/product_3.png",
       "rating": 4.9,
@@ -77,7 +77,7 @@
     {
       "id": "4",
       "title": "ASUS ROG Zephyrus G16",
-      "description": "ROG Zephyrus G16, RTX 4070 GPU ve Intel i9 işlemcisiyle üst düzey oyun performansı sunar.",
+      "description": "The ROG Zephyrus G16 delivers top-level gaming performance with its RTX 4070 GPU and Intel i9 processor.",
       "price": 1899,
       "image": "/products_images/product_4.png",
       "rating": 4.6,
@@ -91,7 +91,7 @@
     {
       "id": "5",
       "title": "Sony WH-1000XM5",
-      "description": "Sony WH-1000XM5, üstün aktif gürültü engelleme teknolojisi ve uzun pil ömrüyle mükemmel bir kablosuz kulak üstü kulaklıktır.",
+      "description": "The Sony WH-1000XM5 is an excellent wireless over-ear headphone with superior active noise canceling and long battery life.",
       "price": 399,
       "image": "/products_images/product_5.png",
       "rating": 4.7,
@@ -105,7 +105,7 @@
     {
       "id": "6",
       "title": "Apple Watch Series 9",
-      "description": "Apple Watch Series 9, gelişmiş sağlık takibi ve yeni çift dokunma hareketiyle dikkat çekiyor.",
+      "description": "The Apple Watch Series 9 stands out with advanced health tracking and the new double tap gesture.",
       "price": 429,
       "image": "/products_images/product_6.png",
       "rating": 4.6,
@@ -120,7 +120,7 @@
     {
       "id": "7",
       "title": "Samsung Galaxy Watch 6 Classic",
-      "description": "Klasik saat tasarımını modern teknolojiyle buluşturan Galaxy Watch 6 Classic, sağlık ve fitness takibiyle öne çıkıyor.",
+      "description": "The Galaxy Watch 6 Classic combines classic watch design with modern technology and stands out with its health and fitness tracking.",
       "price": 449,
       "image": "/products_images/product_7.png",
       "rating": 4.4,
@@ -134,7 +134,7 @@
     {
       "id": "8",
       "title": "iPad Pro M4 13”",
-      "description": "Yeni iPad Pro, ultra ince OLED ekranı ve M4 çipiyle yaratıcı profesyoneller için ideal bir cihazdır.",
+      "description": "The new iPad Pro is an ideal device for creative professionals with its ultra-thin OLED display and M4 chip.",
       "price": 1399,
       "image": "/products_images/product_8.png",
       "rating": 4.8,
@@ -148,7 +148,7 @@
     {
       "id": "9",
       "title": "Kindle Scribe",
-      "description": "Kindle Scribe, e-kitap okumanın yanı sıra not alma özellikleriyle dijital defter deneyimi sunar.",
+      "description": "Kindle Scribe offers a digital notebook experience with note-taking features in addition to e-book reading.",
       "price": 339,
       "image": "/products_images/product_9.png",
       "rating": 4.5,
@@ -161,7 +161,7 @@
     {
       "id": "10",
       "title": "Logitech MX Master 3S",
-      "description": "Ergonomik tasarımı ve sessiz tıklamalarıyla profesyonellerin favori faresi olan MX Master 3S, yüksek hassasiyet sunar.",
+      "description": "The MX Master 3S, a favorite mouse among professionals, offers high precision with its ergonomic design and quiet clicks.",
       "price": 99,
       "image": "/products_images/product_10.png",
       "rating": 4.9,
@@ -175,7 +175,7 @@
     {
       "id": "11",
       "title": "Apple Magic Keyboard",
-      "description": "Apple Magic Keyboard, zarif tasarımı ve rahat tuş yapısıyla Mac kullanıcıları için ideal bir klavyedir.",
+      "description": "The Apple Magic Keyboard is an ideal keyboard for Mac users with its elegant design and comfortable key layout.",
       "price": 129,
       "image": "/products_images/product_11.png",
       "rating": 4.6,
@@ -188,7 +188,7 @@
     {
       "id": "12",
       "title": "Lenovo Legion 5 Pro",
-      "description": "Lenovo Legion 5 Pro, AMD Ryzen 7 işlemcisi ve RTX 4070 ekran kartıyla hem oyuncular hem de profesyoneller için güçlü bir dizüstü bilgisayardır.",
+      "description": "The Lenovo Legion 5 Pro is a powerful laptop for both gamers and professionals with its AMD Ryzen 7 processor and RTX 4070 GPU.",
       "price": 1699,
       "image": "/products_images/product_12.png",
       "rating": 4.8,
@@ -202,7 +202,7 @@
     {
       "id": "13",
       "title": "OnePlus 12",
-      "description": "OnePlus 12, Snapdragon 8 Gen 3 işlemcisi, 2K AMOLED ekranı ve 100W hızlı şarj desteğiyle amiral gemisi deneyimi sunar.",
+      "description": "The OnePlus 12 delivers a flagship experience with its Snapdragon 8 Gen 3 processor, 2K AMOLED display, and 100W fast charging support.",
       "price": 899,
       "image": "/products_images/product_13.png",
       "rating": 4.6,
@@ -216,7 +216,7 @@
     {
       "id": "14",
       "title": "Bose QuietComfort Ultra Earbuds",
-      "description": "QuietComfort Ultra, Bose’un en iyi gürültü engelleme teknolojisini üstün ses kalitesiyle sunuyor.",
+      "description": "The QuietComfort Ultra delivers Bose’s best noise cancelation technology with exceptional sound quality.",
       "price": 299,
       "image": "/products_images/product_14.png",
       "rating": 4.8,
@@ -230,7 +230,7 @@
     {
       "id": "15",
       "title": "Xiaomi 14 Ultra",
-      "description": "Xiaomi 14 Ultra, Leica işbirliğiyle geliştirilen kamerası ve Snapdragon 8 Gen 3 işlemcisiyle profesyonel fotoğrafçılık ve yüksek performans sunar.",
+      "description": "The Xiaomi 14 Ultra offers professional photography and high performance with its Leica-collaborated camera and Snapdragon 8 Gen 3 processor.",
       "price": 1099,
       "image": "/products_images/product_15.png",
       "rating": 4.7,
@@ -247,41 +247,9 @@
     {
       "cart": [
         {
-          "id": "1",
-          "title": "iPhone 15 Pro Max",
-          "description": "Apple'ın en yeni amiral gemisi modeli olan iPhone 15 Pro Max, A17 Pro çipi ve titanyum kasasıyla güç ve şıklığı bir arada sunuyor.",
-          "price": 1199,
-          "image": "/products_images/product_1.png",
-          "rating": 4.8,
-          "category": "Phone",
-          "brand": "Apple",
-          "color": [
-            "black",
-            "natural",
-            "blue"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "2",
-          "title": "Samsung Galaxy S24 Ultra",
-          "description": "Galaxy S24 Ultra, Snapdragon 8 Gen 3 işlemcisi ve gelişmiş yapay zekâ özellikleriyle profesyonel seviyede fotoğraf ve performans sunar.",
-          "price": 1199,
-          "image": "/products_images/product_2.png",
-          "rating": 4.7,
-          "category": "Phone",
-          "brand": "Samsung",
-          "color": [
-            "gray",
-            "black",
-            "violet"
-          ],
-          "quantity": 1
-        },
-        {
           "id": "3",
           "title": "MacBook Pro M3 Max 16”",
-          "description": "MacBook Pro M3 Max, yoğun grafik ve hesaplama gücü gerektiren işler için tasarlanmış en güçlü MacBook modelidir.",
+          "description": "The MacBook Pro M3 Max is the most powerful MacBook model designed for tasks that demand intense graphic and computing power.",
           "price": 3499,
           "image": "/products_images/product_3.png",
           "rating": 4.9,
@@ -292,103 +260,12 @@
             "silver"
           ],
           "quantity": 1
-        },
-        {
-          "id": "4",
-          "title": "ASUS ROG Zephyrus G16",
-          "description": "ROG Zephyrus G16, RTX 4070 GPU ve Intel i9 işlemcisiyle üst düzey oyun performansı sunar.",
-          "price": 1899,
-          "image": "/products_images/product_4.png",
-          "rating": 4.6,
-          "category": "Laptop",
-          "brand": "Asus",
-          "color": [
-            "black",
-            "white"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "5",
-          "title": "Sony WH-1000XM5",
-          "description": "Sony WH-1000XM5, üstün aktif gürültü engelleme teknolojisi ve uzun pil ömrüyle mükemmel bir kablosuz kulak üstü kulaklıktır.",
-          "price": 399,
-          "image": "/products_images/product_5.png",
-          "rating": 4.7,
-          "category": "Headphones",
-          "brand": "Sony",
-          "color": [
-            "black",
-            "silver"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "7",
-          "title": "Samsung Galaxy Watch 6 Classic",
-          "description": "Klasik saat tasarımını modern teknolojiyle buluşturan Galaxy Watch 6 Classic, sağlık ve fitness takibiyle öne çıkıyor.",
-          "price": 449,
-          "image": "/products_images/product_7.png",
-          "rating": 4.4,
-          "category": "Watch",
-          "brand": "Samsung",
-          "color": [
-            "black",
-            "silver"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "13",
-          "title": "OnePlus 12",
-          "description": "OnePlus 12, Snapdragon 8 Gen 3 işlemcisi, 2K AMOLED ekranı ve 100W hızlı şarj desteğiyle amiral gemisi deneyimi sunar.",
-          "price": 899,
-          "image": "/products_images/product_13.png",
-          "rating": 4.6,
-          "category": "Phone",
-          "brand": "OnePlus",
-          "color": [
-            "green",
-            "black"
-          ],
-          "quantity": 1
         }
       ],
       "id": "0300"
     },
     {
-      "cart": [
-        {
-          "id": "7",
-          "title": "Samsung Galaxy Watch 6 Classic",
-          "description": "Klasik saat tasarımını modern teknolojiyle buluşturan Galaxy Watch 6 Classic, sağlık ve fitness takibiyle öne çıkıyor.",
-          "price": 449,
-          "image": "/products_images/product_7.png",
-          "rating": 4.4,
-          "category": "Watch",
-          "brand": "Samsung",
-          "color": [
-            "black",
-            "silver"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "8",
-          "title": "iPad Pro M4 13”",
-          "description": "Yeni iPad Pro, ultra ince OLED ekranı ve M4 çipiyle yaratıcı profesyoneller için ideal bir cihazdır.",
-          "price": 1399,
-          "image": "/products_images/product_8.png",
-          "rating": 4.8,
-          "category": "Tablet",
-          "brand": "Apple",
-          "color": [
-            "space gray",
-            "silver"
-          ],
-          "quantity": 2
-        }
-      ],
+      "cart": [],
       "id": "-CBx9ek"
     },
     {
@@ -396,7 +273,7 @@
         {
           "id": "2",
           "title": "Samsung Galaxy S24 Ultra",
-          "description": "Galaxy S24 Ultra, Snapdragon 8 Gen 3 işlemcisi ve gelişmiş yapay zekâ özellikleriyle profesyonel seviyede fotoğraf ve performans sunar.",
+          "description": "Galaxy S24 Ultra offers professional-level photography and performance with its Snapdragon 8 Gen 3 processor and advanced AI features.",
           "price": 1199,
           "image": "/products_images/product_2.png",
           "rating": 4.7,
@@ -413,75 +290,62 @@
       "id": "Pzf4rnj"
     },
     {
-      "id": "6GqnEM2",
-      "cart": []
-    }
-  ],
-  "favourites": [
-    {
-      "favourites": [
+      "cart": [
         {
-          "id": "2",
-          "title": "Samsung Galaxy S24 Ultra",
-          "description": "Galaxy S24 Ultra, Snapdragon 8 Gen 3 işlemcisi ve gelişmiş yapay zekâ özellikleriyle profesyonel seviyede fotoğraf ve performans sunar.",
-          "price": 1199,
-          "image": "/products_images/product_2.png",
+          "id": "5",
+          "title": "Sony WH-1000XM5",
+          "description": "Sony WH-1000XM5 is an excellent wireless over-ear headphone with superior active noise cancellation and long battery life.",
+          "price": 399,
+          "image": "/products_images/product_5.png",
           "rating": 4.7,
-          "category": "Phone",
-          "brand": "Samsung",
+          "category": "Headphones",
+          "brand": "Sony",
           "color": [
-            "gray",
             "black",
-            "violet"
-          ]
+            "silver"
+          ],
+          "quantity": 1
         },
         {
-          "id": "3",
-          "title": "MacBook Pro M3 Max 16”",
-          "description": "MacBook Pro M3 Max, yoğun grafik ve hesaplama gücü gerektiren işler için tasarlanmış en güçlü MacBook modelidir.",
-          "price": 3499,
-          "image": "/products_images/product_3.png",
-          "rating": 4.9,
-          "category": "Laptop",
-          "brand": "Apple",
+          "id": "9",
+          "title": "Kindle Scribe",
+          "description": "Kindle Scribe offers a digital notebook experience with note-taking capabilities in addition to e-book reading.",
+          "price": 339,
+          "image": "/products_images/product_9.png",
+          "rating": 4.5,
+          "category": "E-Reader",
+          "brand": "Amazon",
           "color": [
-            "space black",
-            "silver"
-          ]
+            "black"
+          ],
+          "quantity": 1
         },
         {
           "id": "8",
           "title": "iPad Pro M4 13”",
-          "description": "Yeni iPad Pro, ultra ince OLED ekranı ve M4 çipiyle yaratıcı profesyoneller için ideal bir cihazdır.",
+          "description": "The new iPad Pro is the ideal device for creative professionals with its ultra-thin OLED display and M4 chip.",
           "price": 1399,
+          "image": "/products_images/product_8.png",
           "rating": 4.8,
           "category": "Tablet",
           "brand": "Apple",
           "color": [
             "space gray",
             "silver"
-          ]
+          ],
+          "quantity": 1
         }
       ],
+      "id": "6GqnEM2"
+    }
+  ],
+  "favourites": [
+    {
+      "favourites": [],
       "id": "0300"
     },
     {
-      "favourites": [
-        {
-          "id": "10",
-          "title": "Logitech MX Master 3S",
-          "description": "Ergonomik tasarımı ve sessiz tıklamalarıyla profesyonellerin favori faresi olan MX Master 3S, yüksek hassasiyet sunar.",
-          "price": 99,
-          "image": "/products_images/product_10.png",
-          "rating": 4.9,
-          "category": "Mouse",
-          "brand": "Logitech",
-          "color": [
-            "black",
-            "pale gray"
-          ]
-        }
-      ],
+      "favourites": [],
       "id": "-CBx9ek"
     },
     {
@@ -489,7 +353,7 @@
         {
           "id": "1",
           "title": "iPhone 15 Pro Max",
-          "description": "Apple'ın en yeni amiral gemisi modeli olan iPhone 15 Pro Max, A17 Pro çipi ve titanyum kasasıyla güç ve şıklığı bir arada sunuyor.",
+          "description": "Apple's latest flagship model, iPhone 15 Pro Max, combines power and elegance with its A17 Pro chip and titanium body.",
           "price": 1199,
           "image": "/products_images/product_1.png",
           "rating": 4.8,

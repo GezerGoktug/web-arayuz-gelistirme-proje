@@ -10,7 +10,7 @@ const getInitialCartState = async () => {
     try {
       const res = await fetch(`http://localhost:3000/cart/${user.id}`);
       if (!res.ok) {
-        throw new Error("Başlangıç sepet verileri çekerken hata oluştu");
+        throw new Error("Error pulling initial basket data");
       }
       const dt = await res.json();
 

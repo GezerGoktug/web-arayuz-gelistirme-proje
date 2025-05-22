@@ -11,26 +11,26 @@ const DetailContent = ({ product }) => {
 
   const handleCart = () => {
     if (!isLoggedIn) {
-      toast.error("Giriş yapmadan ürünleri sepete ekleyemezsiniz");
+      toast.error("You cannot add products to the basket without logging in");
       return;
     }
 
     addCart(product);
-    toast.success("Başarıyla sepete ürün eklendi");
+    toast.success("Product successfully added to basket");
   };
 
   const handleFavourites = () => {
     if (!isLoggedIn) {
-      toast.error("Giriş yapmadan ürünleri favorilere ekleyemezsiniz");
+      toast.error("You cannot add products to the basket without logging in");
       return;
     }
 
     if (!isFavProduct) {
       addFavorite(product);
-      toast.success("Başarıyla ürün favorilere eklendi");
+      toast.success("Product successfully added to favourites");
     } else {
       removeFavorite(product.id);
-      toast.success("Ürün favorilerden çıkarıldı");
+      toast.success("Product has been removed from favourites");
     }
   };
   return (

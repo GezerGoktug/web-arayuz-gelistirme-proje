@@ -33,18 +33,18 @@ const LoginForm = () => {
 
       const dt = await res.json();
 
-      if (!res.ok) throw new Error("Giriş işlemi başarısız");
+      if (!res.ok) throw new Error("Login failed");
 
-      if (dt.length === 0) throw new Error("Kullanıcı bulunamadı");
+      if (dt.length === 0) throw new Error("User not found");
 
       initializeFavourites(dt[0].id);
       initializeCart(dt[0].id);
       login(dt[0]);
 
       navigate("/");
-      toast.success("Giriş işlemi başarılı");
+      toast.success("Login successful");
     } catch {
-      toast.error("Giriş işlemi başarısız");
+      toast.error("Login failed");
     }
   };
 
@@ -64,7 +64,7 @@ const LoginForm = () => {
         <Input type="password" label="Password" name="password" />
 
         <div className="underline mt-4 text-sm cursor-pointer">
-          Forgot you password
+          Forgot your password?
         </div>
 
         <Button

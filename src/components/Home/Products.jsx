@@ -66,8 +66,8 @@ const Products = () => {
       setProducts(dt);
       retry.current = false;
     } catch {
-      toast.error("Ürünleri çekerken hata oluştu");
-      setError({ message: "Ürünleri çekerken hata oluştu" });
+      toast.error("An error occurred while withdrawing products");
+      setError({ message: "An error occurred while withdrawing products" });
     } finally {
       setLoading(false);
     }
@@ -96,7 +96,7 @@ const Products = () => {
             onClick={() => retry()}
             className="bg-indigo-600 px-3  rounded-lg font-medium text-white mt-4"
           >
-            Tekrar dene
+            Try Again
           </Button>
         </div>
       ) : (

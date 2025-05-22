@@ -48,13 +48,13 @@ const HeaderCenter = () => {
         );
 
         if (!res.ok) {
-          throw new Error("Ürünler aranırken bir hata oluştu");
+          throw new Error("An error occurred while searching for products");
         }
         const dt = await res.json();
 
         setSearchResult(dt);
       } catch {
-        toast.error("Ürünler aranırken bir hata oluştu");
+        toast.error("An error occurred while searching for products");
       } finally {
         setLoading(false);
       }
@@ -107,8 +107,8 @@ const HeaderCenter = () => {
           onChange={handleChange}
           value={text}
           type="text"
-          className="outline-none text-sm w-full"
-          placeholder="Bir şeyler arayın"
+          className="outline-none text-sm w-full bg-transparent"
+          placeholder="Search"
         />
         {text.length > 0 && (
           <FaXmark onClick={() => reset()} className="cursor-pointer" />
@@ -126,7 +126,7 @@ const HeaderCenter = () => {
             </div>
           ) : searchResult.length === 0 ? (
             <div className="h-28 flex items-center justify-center">
-              Hiç bir sonuç bulunamadı
+              No results found
             </div>
           ) : (
             searchResult.map((dt) => (

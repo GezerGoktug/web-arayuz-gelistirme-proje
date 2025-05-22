@@ -16,7 +16,7 @@ const PrivateRoute = () => {
 
   if (!isLoggedIn) {
     setTimeout(() => {
-      toast.error("Lütfen giriş yapın!");
+      toast.error("Please log in to access this page");
     }, 400);
     return <Navigate to="/auth" />;
   }

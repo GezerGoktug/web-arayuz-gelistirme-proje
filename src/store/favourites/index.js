@@ -10,7 +10,7 @@ const getInitialFavouriteState = async () => {
     try {
       const res = await fetch(`http://localhost:3000/favourites/${user.id}`);
       if (!res.ok) {
-        throw new Error("Başlangıç favori ürün verileri çekerken hata oluştu");
+        throw new Error("Error pulling initial favourite data");
       }
       const dt = await res.json();
 

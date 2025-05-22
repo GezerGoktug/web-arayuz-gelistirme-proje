@@ -14,29 +14,29 @@ const validator = (data) => {
   const usernameErrors = [];
 
   if (username.length < 3)
-    usernameErrors.push("Kullanıcı adı 3 karakterden aşağı olamaz.");
+    usernameErrors.push("Username cannot be less than 3 characters");
 
   if (username.length > 15)
-    usernameErrors.push("Kullanıcı adı 15 karakterden fazla olamaz");
+    usernameErrors.push("Username cannot be more than 15 characters");
 
   const emailErrors = [];
 
-  if (email.length === 0) emailErrors.push("Email alanı boş olamaz.");
+  if (email.length === 0) emailErrors.push("Email field cannot be empty");
 
   if (!email.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/))
-    emailErrors.push("Email uygun formatta değil");
+    emailErrors.push("Email not in proper format");
 
   const passwordErrors = [];
 
   if (password.length < 8)
-    passwordErrors.push("Şifre 8 karakterden aşağı olamaz.");
+    passwordErrors.push("Password cannot be less than 8 characters");
 
   if (!password.match(/^(?=(.*\p{L}){4,}).*$/u))
-    passwordErrors.push("Şifre en az 4 harf içermelidir.");
+    passwordErrors.push("Password must be at least 4 letters");
 
   const ageErrors = [];
 
-  if (age < 18) ageErrors.push("18 yaşından küçükseniz kayıt olamazsınız.");
+  if (age < 18) ageErrors.push("If you are under 18, you cannot register");
 
   if (emailErrors.length > 0) errorsMap.set("email", emailErrors);
   if (usernameErrors.length > 0) errorsMap.set("username", usernameErrors);
@@ -83,16 +83,16 @@ const RegisterForm = () => {
 
       const dt = await res.json();
 
-      if (!res.ok) throw new Error("Kayıt işlemi başarısız");
+      if (!res.ok) throw new Error("Registration failed");
 
       login(dt);
 
       await setDefaultUserCartAndFavourites(dt.id);
 
       navigate("/");
-      toast.success("Kayıt işlemi başarılı");
+      toast.success("Registration successful");
     } catch {
-      toast.error("Kayıt işlemi başarısız");
+      toast.error("Registration failed");
     }
   };
 
@@ -131,7 +131,7 @@ const RegisterForm = () => {
           label="Email"
           inputClassName={`${
             errors?.email
-              ? "bg-red-900/80 border-red-900 text-white  "
+              ? "bg-red-900/80 border-red-900 text-white"
               : "border-black-400"
           } transition-colors duration-400`}
           labelClassName={`${errors?.email ? "text-white" : ""} transition-all`}
